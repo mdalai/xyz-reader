@@ -50,8 +50,6 @@ public class ArticleDetailActivity extends ActionBarActivity
         }
         setContentView(R.layout.activity_article_detail);
 
-        mToolbar = (Toolbar ) findViewById(R.id.main_toolbar);
-        setSupportActionBar (mToolbar);
 
         getLoaderManager().initLoader(0, null, this);
 

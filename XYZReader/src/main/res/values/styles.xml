@@ -34,7 +34,16 @@
 
     <!--   textView styles  -->
     <style name="MyTextStyleTitle" parent="@style/TextAppearance.AppCompat.Title">
-        <item name="android:textSize">@dimen/detail_title_text_size</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="MyTextStyleSubTitle" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">@dimen/subtitle_text_size</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
     </style>
 
     <style name="MyTextStyleBody" parent="@style/TextAppearance.AppCompat.Body1">
